@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Daos Consultores -Formación</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/Isotipo.png" style="width: 20px" rel="icon">
+  <link href="img/Isotipo.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/icomoon/icomoon.css" rel="stylesheet">
+  <link href="lib/animate/animate.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-offset="58" data-target="#navbar-main">
+
+  <div id="navbar-main">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="isotipo" ><img src="./img/Isotipo.png" style="width: 25px"></span>
+            </button>
+          <a href="#home" class="navbar-brand hidden-xs "><span class="logo"><img src="./img/Logotipo.png" style=" width: 130px; height:39px ;" ></span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" >Inicio</a></li>
+            <li> <a href="index.html#about" > ¿Quienes somos?</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="asesoria.html">Asesoria</a></li>
+                <li><a href="consultoria.html">Consultoria</a></li>
+                <li><a href="facturae.html">Facturacion Electronica</a></li>
+                <li><a href="formacion.html">Formacion Empresarial</a></li>
+              </ul>
+            </li>
+            <li> <a href="index.html#team" > Equipo</a></li>
+            <li> <a href="index.html#blog" > Blog</a></li>
+            <li> <a href="index.html#contact"> Contacto</a></li>
+            <li><a data-toggle="modal" data-target="#myModal" href="#myModal">Trabaje con nosotros</a></li>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div id="headerwrap-for">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1><b></b></h1>
+          <h2></h2>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <div id="greywrap">
+    <p><b>Ofrecemos servicios de capacitación y formación empresarial, con el objetivo de fortalecer los procesos, habilidades y conocimientos que realmente requieren los profesionales para apuntar crecimiento, competitividad y productividad en las organizaciones.</b></p>
+  </div>
+
+
+
+  <div class="modal fade" id="Modalpqr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">PQRs</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row centered">
+            <p>Llena este formulario con tus datos.</p>
+            
+
+            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+              <div class="form-group">
+                <label for="contact-name">Nombre completo</label>
+                <input type="name" name="name" class="form-control" id="contact-name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Por favor ingrese minimo 4 caracteres" >
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Número de Identidad</label>
+                <input  type="number" name="subject" class="form-control" id="contact-cc" placeholder="CC" data-rule="minlen:4" data-msg="Por favor ingrese minimo 8 numeros">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Direccion de correo electronico</label>
+                <input type="email" name="email" class="form-control" id="contact-email" placeholder="Su Email" data-rule="email" data-msg="Por favor ingrese un correo válido">
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">PQR</label>
+                <textarea class="form-control" name="message" id="contact-pqr" placeholder="PQR" rows="5" data-rule="required" data-msg="Por favor escriba aqui su Pqr"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contac_archivo">Anexo</label>
+                <p class="help-block">¿Desea subir algun archivo? Max 3MB</p>
+                <input type="file" id="ejemplo_archivo_1" >
+                
+              </div>
+
+              <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+              <div class="error-message"></div>
+              <div class="sent-message">Se ha enviado correctamente. Gracias!</div>
+
+              <div class="form-send">
+                <button type="submit" class="btn btn-large">Enviar</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+
+
+
+  <!-- Modal Trabaje con Nosotros -->
+   <!-- Modal Trabaje con Nosotros -->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Trabaje con nosotros</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row centered">
+            <p>Llena este formulario con tus datos.</p>
+            
+
+            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+              <div class="form-group">
+                <label for="contact-name">Nombre completo</label>
+                <input type="name" name="name" class="form-control" id="contact-name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" >
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Direccion de correo electronico</label>
+                <input type="email" name="email" class="form-control" id="contact-email" placeholder="Su Email" data-rule="email" data-msg="Por favor ingrese un correo válido">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Asunto</label>
+                <input  value="Postulacion" type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Deben ser al menos 8 caracteres">
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Perfil Profesional</label>
+                <textarea class="form-control" name="message" id="contact-message" placeholder="Su perfil" rows="5" data-rule="required" data-msg="Por favor escriba su perfil"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contac_archivo">Adjuntar un archivo</label>
+                <p class="help-block">Sube aquí tu hoja de vida en PDF. Max 1MB</p>
+                <input type="file" id="ejemplo_archivo_1" accept=".pdf">
+                
+              </div>
+
+              <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+              <div class="error-message"></div>
+              <div class="sent-message">Se ha postulado correctamente. Gracias!</div>
+
+              <div class="form-send">
+                <button type="submit" class="btn btn-large">Enviar</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  
+  <div class="container" id="contact" name="contact">
+      <div class="row">
+        <br>
+        <h1 class="centered"><b>Solicite información sobre Formación empresarial</b></h1>
+        <hr>
+        <br>
+        <br>
+  
+        
+  
+        <div class="col-lg-6">
+          <h3>Información de Contacto</h3>
+          <p><span class="icon icon-home"></span> Cra 13 No. 4-14, Buenaventura, Valle<br/>
+            <span class="icon icon-phone"></span> +57 2419582<br/>
+            <span class="icon icon-mobile"></span> +57 316 3987916<br/>
+            <span class="icon icon-mobile"></span> +57 3104991393<br/>
+            
+          </p>
+        </div>
+        <!-- col -->
+  
+        <div class="col-lg-6">
+          <h3>Contáctenos</h3>
+          <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+  
+            <div class="form-group">
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Escriba al menos 4 caracteres" >
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Correo electronico" data-rule="email" data-msg="Ingrese un correo valido">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Escriba al menos 8 caracteres">
+              <div class="validate"></div>
+            </div>
+  
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Escriba un mensaje" rows="5" data-rule="required" data-msg="Por favor escriba su mensaje"></textarea>
+              <div class="validate"></div>
+            </div>
+  
+            <div class="loading"><img src="lib/php-mail-form/loading.gif"></div>
+            <div class="error-message"></div>
+            <div class="sent-message">Su mensaje a sido enviado, Gracias!</div>
+  
+            <div class="form-send">
+              <button type="submit" class="btn btn-large">Enviar</button>
+            </div>
+  
+          </form>
+        </div>
+        <!-- col -->
+  
+      </div>
+      <!-- row -->
+  </div>
+
+
+
+  <div class="modal fade" id="eventos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Eventos</h4>
+              </div>
+              <div class="modal-body">
+                <img src="img/evento1.png" style=" width: 580px">
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+
+          <div id="copyrights">
+            <div class="row">
+            <div class="col-sm-4"  align="center" >
+              <h4  align="center"><b>Enlaces Directos</b></h4>
+              <hr>
+            
+                <ol style="line-height: 0.8"><a style="font-size: 15px" data-toggle="modal" data-target="#Modalpqr" href="Modalpqr"  target="_blank"><b>PQRs</b></a></ol>
+                <ol style="line-height: 0.8"><a href=" https://www.dropbox.com/s/x7uzj2fxp09ue2c/Facturatech%20Full%20HD.mp4?dl=0" style="font-size: 15px"  target="_blank"><b>Video de negocio</b></a></ol>
+                <ol style="line-height: 0.8"><a href="https://www.facturatech.co/tech/mensajes_bienvenida/adjuntos/des-adj20180526010302.pdf" style="font-size: 15px"  target="_blank"><b>Preuntas frecuentes</b></a></ol>
+                <ol style="line-height: 0.8"><a href="" style="font-size: 15px" href="#" target="_blank"><b>Errores más comunes en la facturación</b></a></ol>
+                <ol style="line-height: 0.8"><a href="" style="font-size: 15px" href="#" target="_blank"><b>7 razones para facturar electrónicamente</b></a></ol>
+                <ol style="line-height: 0.8"><a href="" style="font-size: 15px" href="#" target="_blank"><b>Guia corta para habilitarse como facturador</b></a></ol> 
+                
+            </div>
+            <div class="col-sm-4"  align="center">
+              <h4 align="center"><b>Eventos</b></h4>
+              <hr>
+            
+              <div class="col-sm-6" align="right">
+               <a data-toggle="modal" data-target="#eventos" href="eventos" style="font-size: 15px"><b>SEMINARIO DE FACTURACIÓN ELECTRÓNICA</b></a>
+               <p align="right" style="font-size: 12px">30 y 31 de octubre</p>
+              </div>
+              <div class="col-sm-6" align="left">
+               <img src="img/evento1.png" width="60px" height="70px">
+               
+              </div>
+            </div>
+            <div class="col-sm-4" style="text-align: center">
+                <h4 align="center"><b>Redes Sociales</b></h4>
+                <hr>
+              
+                <a href="https://www.facebook.com/Daos-Consultores-Empresariales-Sas-Zomac-453793275026254" target="_blank"><span class="icon icon-facebook" style="padding-right: 3px"></span></a>
+                <a href="https://www.instagram.com/daosconsultores/" target="_blank"><span class="icon icon-instagram"  style="padding-right: 3px "></span></a>
+                <a href="https://twitter.com/sas_daos" target="_blank"><span class="icon icon-twitter"  style="padding-right: 3px" ></span></a>
+                <a href="https://daosconsultores.blogspot.com" target="_blank"><span class="icon icon-blogger"  style="padding-right: 3px "></span></a>
+                <a href="mailto:info@daosconsultores.com?subject=Contacto%20Pagina" target="_blank"><span class="icon icon-envelop-2"  style="padding-right: 3px" ></span></a>
+            </div>
+          </div>
+              <p style=" text-align: center; font-size: 15px;">
+                  &copy; <strong> 2018 Daos Consultores</strong>.
+                </p>
+        </div>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  </body>
+  </html>
